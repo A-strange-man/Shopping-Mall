@@ -1,0 +1,42 @@
+### maven  ###
+target/
+*.releaseBackup
+
+### gradle ###
+gradle
+gradlew
+gradlew.bat
+
+## hack for graddle wrapper
+!wrapper/*.jar
+!**/wrapper/*.jar
+
+### java ###
+classes/
+*.class
+*.war
+*.ear
+
+###  ide ###
+/.classpath
+/.launch
+/.project
+/.settings
+/*.launch
+/*.tmproj
+/ivy*
+/eclipse
+.apt_generated
+.factorypath
+.springBeans
+
+### idea ###
+.idea
+*.iml
+*.ipr
+*.iws
+
+### 临时文件 ###
+target/
+out/
+build/
